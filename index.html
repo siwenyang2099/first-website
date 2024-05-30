@@ -11,6 +11,7 @@
         <title>Homepage</title>
         <!-- link to the external stylesheet (applies to all pages)-->
         <link rel="stylesheet" href="style.css" />
+        
         <!-- internal stylesheet (applies to this page alone)-->
 
         <style>
@@ -198,38 +199,69 @@
 
             <button type="submit">Submit</button>
         </form>
-        <table>
-            <tr>
-                <th>Firstname</th>
-                <th>Lastname</th>
-                <th>Businesses</th>
-            </tr>
-            <tr>
-                <td>Jane</td>
-                <td>Doe</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>John</td>
-                <td>Doe</td>
-                <td>5</td>
-            </tr>
-        </table>
-        <img src="images/cat.webp" alt="cat(goose) says hi!">
-        <img src="images/cat" alt="cat(goose) says hi!">
+            <table>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Businesses</th>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>Doe</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>5</td>
+                </tr>
+            </table>
+            <img src="images/cat.webp" alt="cat(goose) says hi!">
+            <img src="images/cat" alt="cat(goose) says hi!">
         
-        <audio controls>
-            <source src="images/music.audio.mp4" type="audio/mp4" />
-            Your browser does not support the audio element
-        </audio>
+            <audio controls>
+                <source src="images/music.audio.mp4" type="audio/mp4" />
+                Your browser does not support the audio element
+            </audio>
 
-        <video controls autoplay width="250" height="200">
-            <source src="images/music.mp4" type="video/mp4" />
-            Your browser does not support the video element
-          </video>
+            <video controls autoplay width="250" height="200">
+                <source src="images/music.mp4" type="video/mp4" />
+                Your browser does not support the video element
+            </video>
 
+            <h1>This is an h1 elemtn. I am a sibling to the paragraphs</h1>
 
+            <section>
+            <p>First paragraph</p><!--direct child of section elemment-->
+            <p>Second paragraph</p><!--direct child of section element-->
+            <div>
+                <p>Third paragraph</p>
+                <p>fourth paragraph</p>
+            </div>
+            </section>
 
+            <p>This is a p element. I am a sibling to the sections</p>
+            <div class="flex-container">
+                <div>
+                  <h1>#1 Training Ground for ambitious people in techfashionHairBeauty globally.</h1>
+                  <p>We upskill, we support, we get them employed! - Feel empowered, be empowered.</p>
+                  <a href="">View bootcamps</a>
+                </div>
+                <div>
+                  <video controls autoplay width="250" height="200">
+                    <source src="images/cat video.mp4" type="video/mp4" />
+                    Your browser does not support the video element
+                </video>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+            </div>
         </main>
 
         <footer>
@@ -240,6 +272,7 @@
               Check out on Twitter
             </a>
             <p>&copy; Copyright 2024</p>
+            <script src="index.js"> </script>
         </footer>
     </body>
 </html>
